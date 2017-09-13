@@ -1,0 +1,559 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML/pack_upload-8.x-1.x-dev.zip at dev1 - tam-lv/HTML</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="/assets/common/images/gitbucket.png?20170801200001" type="image/vnd.microsoft.icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/vendors/bootstrap-3.3.6/css/bootstrap.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/octicons-4.2.0/octicons.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/bootstrap-datetimepicker-4.17.44/css/bootstrap-datetimepicker.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/colorpicker/css/bootstrap-colorpicker.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/google-code-prettify/prettify.css?20170801200001" type="text/css" rel="stylesheet"/>
+    <link href="/assets/vendors/facebox/facebox.css?20170801200001" rel="stylesheet"/>
+    <link href="/assets/vendors/AdminLTE-2.3.11/css/AdminLTE.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/AdminLTE-2.3.11/css/skins/skin-blue.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/font-awesome-4.6.3/css/font-awesome.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/jquery-ui/jquery-ui.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/jquery-ui/jquery-ui.structure.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/vendors/jquery-ui/jquery-ui.theme.min.css?20170801200001" rel="stylesheet">
+    <link href="/assets/common/css/gitbucket.css?20170801200001" rel="stylesheet">
+    <script src="/assets/vendors/jquery/jquery-1.12.2.min.js?20170801200001"></script>
+    <script src="/assets/vendors/jquery-ui/jquery-ui.min.js?20170801200001"></script>
+    <script src="/assets/vendors/dropzone/dropzone.js?20170801200001"></script>
+    <script src="/assets/common/js/validation.js?20170801200001"></script>
+    <script src="/assets/common/js/gitbucket.js?20170801200001"></script>
+    <script src="/assets/vendors/bootstrap-3.3.6/js/bootstrap.js?20170801200001"></script>
+    <script src="/assets/vendors/bootstrap3-typeahead/bootstrap3-typeahead.js?20170801200001"></script>
+    <script src="/assets/vendors/bootstrap-datetimepicker-4.17.44/js/moment.min.js?20170801200001"></script>
+    <script src="/assets/vendors/bootstrap-datetimepicker-4.17.44/js/bootstrap-datetimepicker.min.js?20170801200001"></script>
+    <script src="/assets/vendors/colorpicker/js/bootstrap-colorpicker.js?20170801200001"></script>
+    <script src="/assets/vendors/google-code-prettify/prettify.js?20170801200001"></script>
+    <script src="/assets/vendors/elastic/jquery.elastic.source.js?20170801200001"></script>
+    <script src="/assets/vendors/facebox/facebox.js?20170801200001"></script>
+    <script src="/assets/vendors/jquery-hotkeys/jquery.hotkeys.js?20170801200001"></script>
+    <script src="/assets/vendors/jquery-textcomplete-1.6.2/jquery.textcomplete.js?20170801200001"></script>
+    
+      <meta name="go-import" content="172.16.13.3/tam-lv/HTML git http://172.16.13.3/git/tam-lv/HTML.git" />
+    
+    <script src="/assets/vendors/AdminLTE-2.3.11/js/app.js?20170801200001" type="text/javascript"></script>
+  </head>
+  <body class="skin-blue page-load sidebar-mini ">
+    <div class="wrapper">
+      <header class="main-header">
+        <a href="/" class="logo">
+          <img src="/assets/common/images/gitbucket.svg?20170801200001" style="width: 24px; height: 24px; display: inline;"/>
+          GitBucket
+          <span class="header-version">4.16.0</span>
+        </a>
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+              <span class="sr-only">Toggle navigation</span>
+            </a>
+          
+          <form id="search" action="/search" method="GET" class="pc navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" name="query" id="navbar-search-input" class="form-control" placeholder="Search repository"/>
+            </div>
+          </form>
+          <ul class="pc nav navbar-nav">
+            
+            
+          </ul>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              
+                <li>
+                  <a href="/signin?redirect=%2Ftam-lv%2FHTML%2Fblob%2Fdev1%2Fpack_upload-8.x-1.x-dev.zip" class="pull-right" id="signin">Sign in</a>
+                </li>
+              
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+  
+
+
+
+<div class="main-sidebar">
+  <div class="sidebar">
+    <ul class="sidebar-menu">
+      
+  <li class = "menu-item-hover active">
+    
+      <a href="/tam-lv/HTML">
+        <i class="menu-icon octicon octicon-code"></i>
+        <span>Files</span>
+        
+      </a>
+    
+  </li>
+
+      
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/branches">
+        <i class="menu-icon octicon octicon-git-branch"></i>
+        <span>Branches</span>
+        
+          <span class="pull-right-container"><span class="label label-primary pull-right">6</span></span>
+        
+      </a>
+    
+  </li>
+
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/tags">
+        <i class="menu-icon octicon octicon-tag"></i>
+        <span>Tags</span>
+        
+      </a>
+    
+  </li>
+
+      
+      
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/issues">
+        <i class="menu-icon octicon octicon-issue-opened"></i>
+        <span>Issues</span>
+        
+      </a>
+    
+  </li>
+
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/pulls">
+        <i class="menu-icon octicon octicon-git-pull-request"></i>
+        <span>Pull requests</span>
+        
+          <span class="pull-right-container"><span class="label label-primary pull-right">1</span></span>
+        
+      </a>
+    
+  </li>
+
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/issues/labels">
+        <i class="menu-icon octicon octicon-tag"></i>
+        <span>Labels</span>
+        
+      </a>
+    
+  </li>
+
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/issues/priorities">
+        <i class="menu-icon octicon octicon-flame"></i>
+        <span>Priorities</span>
+        
+      </a>
+    
+  </li>
+
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/issues/milestones">
+        <i class="menu-icon octicon octicon-milestone"></i>
+        <span>Milestones</span>
+        
+      </a>
+    
+  </li>
+
+      
+      
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/wiki">
+        <i class="menu-icon octicon octicon-book"></i>
+        <span>Wiki</span>
+        
+      </a>
+    
+  </li>
+
+      
+      
+        
+  <li class = "menu-item-hover ">
+    
+      <a href="/tam-lv/HTML/network/members">
+        <i class="menu-icon octicon octicon-repo-forked"></i>
+        <span>Forks</span>
+        
+          <span class="pull-right-container"><span class="label label-primary pull-right">1</span></span>
+        
+      </a>
+    
+  </li>
+
+      
+      
+      
+    </ul>
+  </div>
+</div>
+<div class="content-wrapper">
+  <div class="content body clearfix">
+    <div class="headbar">
+      <div class="container">
+        
+
+
+        
+
+        <div class="head">
+          <div class="pull-right">
+            
+              
+            
+          </div>
+          
+
+  
+    <i class="mega-octicon octicon-repo"></i>
+  
+
+
+          <a href="/tam-lv">tam-lv</a> / <a href="/tam-lv/HTML" class="strong">HTML</a>
+
+          
+            
+            
+              <div class="normal muted" style="margin-left: 36px; font-size: 80%;">aaaa</div>
+            
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="head">
+      <div class="pull-right hide-if-blame"><div class="btn-group">
+        <a href="/tam-lv/HTML/find/dev1" class="btn btn-sm btn-default" data-hotkey="t">Find file</a>
+      </div></div>
+      <div class="line-age-legend">
+        <span>Newer</span>
+        <ol>
+            <li class="heat1"></li>
+            <li class="heat2"></li>
+            <li class="heat3"></li>
+            <li class="heat4"></li>
+            <li class="heat5"></li>
+            <li class="heat6"></li>
+            <li class="heat7"></li>
+            <li class="heat8"></li>
+            <li class="heat9"></li>
+            <li class="heat10"></li>
+        </ol>
+        <span>Older</span>
+      </div>
+      
+
+
+  <div class="btn-group" >
+    <button
+        class="dropdown-toggle btn btn-default btn-sm" data-toggle="dropdown">
+      
+        
+          <span class="muted">branch:</span>
+        
+        <span class="strong">dev1</span>
+      
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+      
+  <li><div id="branch-control-title">Switch branches<button id="branch-control-close" class="pull-right">&times</button></div></li>
+  <li><input id="branch-control-input" type="text" class="form-control input-sm dropdown-filter-input" placeholder="Find or create branch ..."/></li>
+  
+        
+          <li><a href="/tam-lv/HTML/blob/dev/pack_upload-8.x-1.x-dev.zip">
+
+  <i class="octicon"></i>
+ dev</a></li>
+        
+          <li><a href="/tam-lv/HTML/blob/dev1/pack_upload-8.x-1.x-dev.zip">
+
+  <i class="octicon octicon-check"></i>
+ dev1</a></li>
+        
+          <li><a href="/tam-lv/HTML/blob/dev2/pack_upload-8.x-1.x-dev.zip">
+
+  <i class="octicon"></i>
+ dev2</a></li>
+        
+          <li><a href="/tam-lv/HTML/blob/dev3/pack_upload-8.x-1.x-dev.zip">
+
+  <i class="octicon"></i>
+ dev3</a></li>
+        
+          <li><a href="/tam-lv/HTML/blob/dev4/pack_upload-8.x-1.x-dev.zip">
+
+  <i class="octicon"></i>
+ dev4</a></li>
+        
+          <li><a href="/tam-lv/HTML/blob/master/pack_upload-8.x-1.x-dev.zip">
+
+  <i class="octicon"></i>
+ master</a></li>
+        
+      
+  
+
+    </ul>
+  </div>
+  
+
+
+<script>
+  $(function(){
+    $('#branch-control-input').parent().click(function(e) {
+      e.stopPropagation();
+    });
+    $('#branch-control-close').click(function() {
+      $('[data-toggle="dropdown"]').parent().removeClass('open');
+    });
+    $('#branch-control-input').keyup(function() {
+      var inputVal = $('#branch-control-input').val();
+      $.each($('#branch-control-input').parent().parent().find('a'), function(index, elem) {
+        if (!inputVal || !elem.text.trim() || elem.text.trim().toLowerCase().indexOf(inputVal.toLowerCase()) >= 0) {
+          $(elem).parent().show();
+        } else {
+          $(elem).parent().hide();
+        }
+      });
+      
+    });
+    
+    $('.btn-group').click(function() {
+      $('#branch-control-input').val('');
+      $('.dropdown-menu li').show();
+      $('#create-branch').hide();
+    });
+  });
+</script>
+
+      <a href="/tam-lv/HTML/tree/dev1">HTML</a> /
+      
+        
+          pack_upload-8.x-1.x-dev.zip
+        
+      
+      
+    </div>
+    <div class="box-header">
+      <img src="/tam-lv/_avatar?20170729225922" class="avatar" style="width: 28px; height: 28px;" />
+      <a href="/tam-lv" class="username strong">tam-lv</a>
+      <span class="muted">
+<span data-toggle="tooltip" title="2017-07-31 20:25:59">
+  
+    2 days ago
+  
+</span>
+</span>
+      <span class="label label-default">12 KB</span>
+      <a href="/tam-lv/HTML/commit/989fca5ad5ad671543fcea63654ba8908f2c70c4" class="commit-message">Add files via upload</a>
+      <div class="btn-group pull-right">
+        
+        <a class="btn btn-sm btn-default" href="/tam-lv/HTML/raw/989fca5ad5ad671543fcea63654ba8908f2c70c4/pack_upload-8.x-1.x-dev.zip">Raw</a>
+        
+        <a class="btn btn-sm btn-default" href="/tam-lv/HTML/commits/dev1/pack_upload-8.x-1.x-dev.zip">History</a>
+        
+      </div>
+    </div>
+      
+      
+      
+        <div class="box-content-bottom" style="text-align: center; padding-top: 20px; padding-bottom: 20px;">
+          <a href="/tam-lv/HTML/raw/dev1/pack_upload-8.x-1.x-dev.zip">View Raw</a><br>
+          <br>
+          (Sorry about that, but we can't show files that are this big right now)
+        </div>
+      
+  
+  </div>
+</div>
+
+
+
+    </div>
+    <script>
+      $(function(){
+        $('#search').submit(function(){
+          return $.trim($(this).find('input[name=query]').val()) != '';
+        });
+        $(".sidebar-toggle").on('click', function(e){
+          $.get('/sidebar-collapse', { collapse: !$('body').hasClass('sidebar-collapse') });
+        });
+      });
+    </script>
+    
+  </body>
+</html>
+
+<script>
+$(window).load(function(){
+  updateHighlighting();
+
+  window.onhashchange = function(){
+    updateHighlighting();
+  }
+
+  var pre = $('pre.prettyprint');
+  function updateSourceLineNum(){
+    $('.source-line-num').remove();
+    var pos = pre.find('ol.linenums').position();
+    if(pos){
+      $('<div class="source-line-num">').css({
+        height  : pre.height(),
+        width   : '48px',
+        cursor  : 'pointer',
+        position: 'absolute',
+        top     : pos.top + 'px',
+        left    : pos.left + 'px'
+      }).click(function(e){
+        var pos = $(this).data("pos");
+        if(!pos){
+          pos = $('ol.linenums li').map(function(){ return { id: $(this).attr("id"), top: $(this).position().top} }).toArray();
+          $(this).data("pos",pos);
+        }
+        for(var i = 0; i < pos.length-1; i++){
+          if(pos[i + 1].top > e.pageY){
+            break;
+          }
+        }
+        var line = pos[i].id.replace(/^L/,'');
+        var hash = location.hash;
+        if(e.shiftKey == true && hash.match(/#L\d+(-L\d+)?/)){
+          var lines = hash.split('-');
+          location.hash = lines[0] + '-L' + line;
+        } else {
+          var p = $("#L"+line).attr('id',"");
+          location.hash = '#L' + line;
+          p.attr('id','L'+line);
+        }
+      }).appendTo(pre);
+    }
+  }
+  var repository = $('.blame-action').data('repository');
+  $('.blame-action').click(function(e){
+    if(history.pushState && $('pre.prettyprint.no-renderable').length){
+      e.preventDefault();
+      history.pushState(null, null, this.href);
+      updateBlame();
+    }
+  });
+
+  function updateBlame(){
+    var m = /\/(blame|blob)(\/.*)$/.exec(location.href);
+    var mode = m[1];
+    $('.blame-action').toggleClass("active", mode=='blame').attr('href', repository + (m[1] == 'blame' ? '/blob' : '/blame') + m[2]);
+    if(pre.parents("div.box-content-bottom").find(".blame").length){
+      pre.parent().toggleClass("blame-container", mode == 'blame');
+      updateSourceLineNum();
+      return;
+    }
+    if(mode=='blob'){
+      updateSourceLineNum();
+      return;
+    }
+    $(document.body).toggleClass('no-box-shadow', document.body.style.boxShadow===undefined);
+    $('.blame-action').addClass("active");
+    var base = $('<div class="blame">').css({height: pre.height()}).prependTo(pre.parents("div.box-content-bottom"));
+    base.parent().addClass("blame-container");
+    updateSourceLineNum();
+    $.get($('.blame-action').data('url')).done(function(data){
+      var blame = data.blame;
+      var index = [];
+      for(var i = 0; i < blame.length; i++){
+        for(var j = 0; j < blame[i].lines.length; j++){
+          index[blame[i].lines[j]] = blame[i];
+        }
+      }
+      var blame, lastDiv, now = new Date().getTime();
+
+      $('pre.prettyprint ol.linenums li').each(function(i, e){
+        var p = $(e).position();
+        var h = $(e).height();
+        if(blame == index[i]){
+          lastDiv.css("min-height",(p.top + h + 1) - lastDiv.position().top);
+        } else {
+          $(e).addClass('blame-sep')
+          blame = index[i];
+          var sha = $('<div class="blame-sha">')
+             .append($('<a>').attr("href", data.root + '/commit/' + blame.id).text(blame.id.substr(0,7)));
+          if(blame.prev){
+             sha.append($('<br />'))
+             .append($('<a class="muted-link">').text('prev').attr("href", data.root + '/blame/' + blame.prev + '/' + (blame.prevPath || data.path)));
+          }
+          lastDiv = $('<div class="blame-info">')
+           .addClass('heat' + Math.min(10, Math.max(1, Math.ceil((now - blame.commited) / (24 * 3600 * 1000 * 70)))))
+           .toggleClass('blame-last', blame.id == data.last)
+           .data('line', (i + 1))
+           .css({
+             "top"        : p.top + 'px',
+             "min-height" : h + 'px'
+           })
+           .append(sha)
+           .append($(blame.avatar).addClass('avatar').css({"float": "left"}))
+           .append($('<div class="blame-commit-title">').text(blame.message))
+           .append($('<div class="muted">').html(blame.author + " authed " + blame.authed))
+           .appendTo(base);
+        }
+      });
+    });
+    return false;
+  };
+  updateBlame();
+});
+
+var scrolling = false;
+
+/**
+ * Hightlight lines which are specified by URL hash.
+ */
+function updateHighlighting(){
+  var hash = location.hash;
+  if(hash.match(/#L\d+(-L\d+)?/)){
+    $('li.highlight').removeClass('highlight');
+    var lines = hash.substr(1).split('-');
+    if(lines.length == 1){
+      $('#' + lines[0]).addClass('highlight');
+      if(!scrolling){
+        $(window).scrollTop($('#' + lines[0]).offset().top - 40);
+      }
+    } else if(lines.length > 1){
+      var start = parseInt(lines[0].substr(1));
+      var end   = parseInt(lines[1].substr(1));
+      for(var i = start; i <= end; i++){
+        $('#L' + i).addClass('highlight');
+      }
+      if(!scrolling){
+        $(window).scrollTop($('#L' + start).offset().top - 40);
+      }
+    }
+    scrolling = true;
+  }
+}
+</script>
